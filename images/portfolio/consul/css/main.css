@@ -1,0 +1,228 @@
+
+/* FONT-FACE */
+@font-face {
+    font-family: 'consul';
+    src: url('../font/consulcoheadline_std_rg-webfont.eot');
+    src: url('../font/consulcoheadline_std_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/consulcoheadline_std_rg-webfont.woff') format('woff'),
+         url('../font/consulcoheadline_std_rg-webfont.ttf') format('truetype'),
+         url('../font/consulcoheadline_std_rg-webfont.svg#consul') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'consul';
+    src: url('../font/consulcoheadline_std_bd-webfont.eot');
+    src: url('../font/consulcoheadline_std_bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/consulcoheadline_std_bd-webfont.woff') format('woff'),
+         url('../font/consulcoheadline_std_bd-webfont.ttf') format('truetype'),
+         url('../font/consulcoheadline_std_bd-webfont.svg#consul-bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html, body {
+	height: 100%;
+}
+
+/**
+ * Rodapé sempre no final da página
+ * @source http://ryanfait.com/sticky-footer/
+ */
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 0 -45px;
+	background: #000 url('../img/bg-black-friday.jpg') top center no-repeat;
+}
+
+body {
+	font-family: sans-serif;
+	text-align: center;
+	background: #f1f2ee;
+}
+
+.header {
+	height: 25px;
+	background: none;
+}
+
+.footer {
+	height: 45px;
+	background: none;
+}
+.footer-push {
+	height: 45px;
+}
+
+.container {
+	background: none;
+}
+
+.container-wrap {
+	position: relative;
+	margin: 0 auto;
+	width: 990px;
+	text-align: left;
+	clear: both;
+}
+
+.logo {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 181px;
+	height: 75px;
+	background: url(../img/consul.png) no-repeat;
+}
+.logo h1 {
+	display: none;
+}
+
+.ilustracao {
+	float: left;
+	width: 650px;
+}
+.ilustracao img {
+	display: none;
+}
+
+.ilustracao .over {
+	position: absolute;
+	left: 0;
+	top: 70px;
+	width: 335px;
+	height: 128px;
+	background: url(../img/box-e-pra-ja.png) no-repeat;
+	display: none;
+}
+.ilustracao .over p {
+	display: none;
+}
+
+.ilustracao .descricao {
+	height: 58px;
+	background: url(../img/box-beneficios.png) no-repeat;
+	display: none;
+}
+.ilustracao .descricao ul,
+.ilustracao .descricao small {
+	display: none;
+}
+
+.conteudo {
+	float: right;
+	padding-top: 115px;
+	width: 340px;
+}
+
+.conteudo .chamada {
+	padding-left: 45px;
+	font-family: consul;
+	font-size: 20px;
+	font-weight: bold;
+	color: #515151;
+	text-transform: uppercase;
+	background: none;
+}
+.conteudo .chamada strong {
+	font-size: 22px;
+	font-weight: bold;
+	color: #99ca3c;
+}
+
+.conteudo form {
+	margin: 28px 0 0 28px;
+	padding: 24px 16px 48px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #736c6b;
+	background: url('../img/bg-box-form-black-friday.png');
+}
+.conteudo form .fields input {
+	margin-bottom: 15px;
+	padding: 0 10px;
+	width: 260px;
+	height: 27px;
+	border: none;
+	background: url(../img/field-black-friday.png) no-repeat;
+	text-transform: uppercase;
+}
+.conteudo form .fields .duas-col input {
+	margin-bottom: 5px;
+	width: 114px;
+	background: url(../img/field-p-black-friday.png) no-repeat;
+}
+.conteudo form .fields #txt-tel {
+	float: right;
+	margin-right: 7px;
+}
+
+.conteudo form span.hr {
+	display: block;
+	height: 60px;
+	background: url(../img/divisor-black-friday.png) no-repeat center center;
+}
+
+.conteudo form .categorias {
+	position: relative;
+	left: 12px;
+	color: #736c6b;
+}
+.conteudo form .categorias label {
+	display: inline-block;
+	padding-top: 8px;
+	font-size: 10px;
+	/*border: 1px solid red;*/
+}
+.conteudo form .categorias label input {
+	margin-right: 6px;
+	vertical-align: middle;
+}
+.conteudo form .categorias label.lb152 {
+	width: 144px;
+}
+.conteudo form .categorias label.lb128 {
+	width: 124px;
+}
+
+.conteudo form .lbl-aceito input {
+	margin-right: 6px;
+}
+
+.conteudo form .lbl-aceito a {
+	text-decoration: none;
+	color: #736c6b;
+}
+
+.conteudo form .action {
+	position: relative;
+	left: 12px;
+}
+
+.conteudo form input.enviar {
+	display: inline-block;
+	margin: 0 0 0 18px;
+	width: 87px;
+	height: 33px;
+	font-family: consul, sans-serif;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: underline;
+	border: none;
+	background: url(../img/bt-form-black-friday.png) no-repeat;
+	cursor: pointer;
+}

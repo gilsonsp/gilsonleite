@@ -1,0 +1,544 @@
+*{
+padding: 0;
+margin: 0;
+font-family: Oswald;
+//color: #d559a8;
+//font-size: 20px;
+}
+
+	.fixar {
+	    position:fixed;
+	    margin-top: 0px !important;
+	    width: 100%;
+	}
+
+	
+
+
+.top1{
+	padding-top:100px;
+}
+
+.navbar-default{
+  background-color:#474747;
+  border-radius:0;
+  border:none;
+  margin-bottom:0;  
+	
+}
+
+.logo{
+	height:37px;
+	width:167px;
+	margin-top:25px;
+	}
+
+.navbar-brand,
+.navbar-nav li a {
+   height:100px;
+   line-height:100px;
+   padding:0 25px;
+   background-color:#474747;
+   
+   }
+   
+   .navbar-nav li a {
+   margin-left:1px;
+   font-family:'Oswald', sans-serif;
+   font-size:25px;
+   text-transform: uppercase;
+   border-right:1px solid #393939;
+   -webkit-box-shadow: 1px 0px 0px 0px rgba(255,255,255,.1);
+   -moz-box-shadow: 1px 0px 0px 0px rgba(255,255,255,.1);
+   box-shadow: 1px 0px 0px 0px rgba(255,255,255,.1); 
+}
+
+.navbar-default .navbar-nav> li> a{
+color:#FFFFFF;	
+	}
+	
+	.navbar-default .navbar-nav> li> a:hover{
+color:#FFFFFF;
+background-color:#535252;	
+	}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #FFF;
+    background-color: #535252;
+}
+
+
+ul.navbar-default > li.navbar-nav>.active>a{
+	color: #FFF;
+    background-color: #535252;
+}
+
+
+.navbar-default .navbar-toggle{
+	margin-top:25px;
+	border-color:#646464;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-color:#3d3d3d;
+	}
+	
+	
+
+li.linkedin a{
+	width:100px;
+	background-color:#0e76a8 !important ;
+	text-align:center;
+	color:#fff;
+	font-size:40px;
+	box-shadow:none;
+	border:none;
+	line-height:85px;
+	}
+
+li.linkedin a:hover{
+	opacity:.8;
+	}
+	
+	@media (max-width:768px){
+		.navbar-default .navbar-nav> li> a{
+        width:100%;
+		border-bottom:1px solid #3d3d3d;
+		text-align:center;
+		}
+  
+  	.navbar-header {
+    height: 80px;
+}	}
+
+	
+
+@media (max-width:768px){
+	.navbar-brand,
+	.navbar-nav li a {
+   height:40px;
+   line-height:40px;
+   padding:0 10px;
+   background-color:#474747;
+   font-size:20px;
+   }
+
+	li.linkedin a{
+	width:100px;
+	background-color:#0e76a8 !important ;
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+	box-shadow:none;
+	border:none;
+	line-height:30px;
+	position: relative;
+	left: -1px;
+	}
+
+		
+	
+	}
+
+	@media (min-width: 962px){
+		#sobre-mim p{
+	font-family:Open Sans;
+	font-size:20px;
+	color:#fff;
+	text-align:justify;
+	padding:10px 350px;
+	//text-shadow: 10px 10px 10px #000;
+
+    }
+    	
+    }
+
+
+	
+#sobre-mim p{
+	font-family:Open Sans;
+	font-size:30px;
+	color:#fff;
+	text-align:left;
+	//text-shadow: 10px 10px 10px #000;
+	}
+
+
+
+ .titulo-section{
+		font-family: 'Oswald', sans-serif;
+		color:#d559a8;
+		border:4px solid #d559a8;
+		display:inline;	
+        padding:18px 40px;		
+		text-transform: uppercase;
+        font-size: 40px !important;
+    }
+
+    
+	 #sobre-mim{
+		background-image: url(../img/gilson_mata_neve.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+		background-color:#6d6d6d;
+		padding-top:200px;
+		text-align:center;
+	}
+	
+	#sobre-mim h1{
+	font-family:Oswald;
+	font-size:30px;
+	color:#fff;
+	}
+	
+	#sobre-mim .separador{
+	font-family:Oswald;
+	font-size:30px;
+	color:#fff;
+	margin-left:10px;
+	}
+	
+	#sobre-mim h1 span{
+	font-family:Oswald;
+	font-size:20px;
+	color:#fff;
+	margin-left:10px;
+	}
+	
+	.profile-picture{
+		border:10px solid #fff;
+		-webkit-box-shadow: 0px 24px 37px 0px rgba(0,0,0,1);
+   -moz-box-shadow: 0px 24px 37px 0px rgba(0,0,0,1);
+   box-shadow: 0px 24px 37px 0px rgba(0,0,0,1);
+		}
+.fa.fa-github, .fa.fa-file-pdf-o{
+   	font-size: 100px;
+   	padding-right: 15px;
+   	padding-top: 10px;
+   	padding-bottom: 10px;
+   	color: #fff;
+   }
+
+   .fa.fa-code, .fa.fa-envelope-o, .fa.fa-language, .fa.fa-users{
+	font-size: 100px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #000;
+}		
+			
+	#portfolio {
+	padding-top:150px;	
+	}	
+		
+	#portfolio h1{
+	margin-top: 100px;
+    }
+
+	.categoria-portfolio ul li a{
+		font-family:Oswald;
+		font-size:36px;
+		color:#d559a8;
+        display:inline; 		
+		}		
+		
+		#portfolio h3{
+			padding-top:40px;
+			color:#3f3f3f;
+			font-family:Oswald;
+			font-size:36px;
+		}
+		
+		#portfolio h3 span{
+			padding-left:10px;
+			padding-right:10px;
+			color:#bcbcbc;
+		}
+		
+		
+     #portfolio.portfolio-filter ul {
+	padding:0px;
+	margin:0px;
+	background-color:#EDEDED;
+	list-style:none;
+	width:100%;
+	border:1px solid blue;
+	position:relative;
+}
+
+ #portfolio.portfolio-filter ul li { display: inline; }
+
+ #portfolio.portfolio-filter ul li a {
+	padding: 2px 50px;
+	display: inline-block;
+
+	/* visual do link */
+	background-color:#EDEDED;
+	color: #333;
+	text-decoration: none;
+	border-bottom:3px solid #EDEDED;
+}
+
+.sem:first-child ul li{
+	border-right:none;
+}
+
+#portfolio2{
+	background-color: #ccc;
+	height: 1000px;
+}
+
+/* Boxes Serviços */
+
+#servicos .item{
+	padding: 40px 10px;
+	margin: 10px;
+	color: #FFF;
+	border: solid 3px rgb(186, 168, 168);
+	text-align: center;
+}
+
+#servicos h1{
+	color: rgb(213, 89, 168);
+	}
+
+	
+#contato input{
+ margin-bottom: 20px;
+ height: 73px;
+ border: solid 3px #b9b9b9;
+ border-radius: 1px;
+ font-size: 25px;
+ padding-left: 28px;
+ }
+
+
+
+#contato textarea{
+ margin-bottom: 20px;
+ height: 200px;
+ border: solid 3px #b9b9b9;
+ border-radius: 1px;
+ font-size: 25px;
+ padding-left: 28px;
+}
+
+#contato button {
+ margin-bottom: 20px;
+ height: 73px;
+ border: solid 3px #b9b9b9;
+ border-radius: 1px;
+ font-size: 25px;
+ width: 145px;
+ color:#d559a8;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.done {
+    display: none;
+}
+
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+
+/* Boxes Serviços */
+
+#servicos .item{
+	padding: 40px 10px;
+	margin: 10px;
+	color: #FFF;
+	border: solid 3px rgb(186, 168, 168);
+	text-align: center;
+}
+   
+
+   #servicos{
+   padding-top:150px; 
+}
+
+ #contato{
+   padding-top:150px; 
+}
+
+#contato .fa {
+	padding-right: 15px;
+	padding-bottom: 10px;
+	color:#d559a8;
+	font-size: 25px;
+	}
+
+.fa .fa-envelope-o, .fa .fa-phone{
+	color:#d559a8;
+}
+
+#contato span {
+	font-size: 22px;
+	color:#d559a8;
+	}
+
+.margenimg{
+	
+	padding-bottom: 100px;
+}
+
+.item img{
+	width: auto;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 20px;
+}
+
+.item p{
+	font-size: 18px;
+	color: rgb(213, 89, 168);
+	font-family: Open sans;
+	//margin: 25px 0 0;
+}
+
+.item h2{
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(213, 89, 168);
+	font-family: Oswald;
+	}
+.item h4{
+	margin: 5px 0 0;
+	font-size: 20px;
+}
+
+footer{
+	background-color: #474747;
+	height: 207px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+   font-family: "Open Sans";
+}
+
+footer img{
+	padding-top: 50px;
+}
+
+
+
+/* Pricing */
+/*=========================*/
+.wow-pricing-table {
+	list-style:none;
+	margin:0;
+	padding:0;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	transition:0.3s;
+}
+.wow-pricing-table div {
+	list-style:none;
+}
+.wow-pricing-table>div {
+	list-style:none;
+	text-shadow:none;
+	margin-bottom:0px;
+	border:1px solid #eee;
+		margin:0px 15px;
+}
+.wow-pricing-table>div.featured {
+		z-index:1;
+}
+.wow-pricing-table>div.featured {
+}
+.wow-pricing-table>div.featured .wow-pricing-header {
+	background-color:#f05f40;
+}
+.wow-pricing-table:hover {
+	margin-top:-5px;
+}
+.wow-pricing-table .wow-pricing-header {
+	text-align:center;
+	padding:20px 0 10px 0;
+	background-color:#333;
+}
+.wow-pricing-table .wow-pricing-header h5 {
+	color:#fff;
+	font-size:20px;
+	margin:0;
+	padding:0 20px 0px;
+}
+.wow-pricing-table .wow-pricing-cost {
+	color:#fff;
+	font-size:1.500em;
+	line-height:1em;
+	padding-top:15px;
+	background:#333;
+}
+.wow-pricing-table .wow-pricing-per {
+	font-size:0.786em;
+	color:#fff;
+	background-color:#333;
+	padding-bottom:10px;
+}
+.wow-pricing-table .wow-pricing-content {
+	background:#fff;
+	text-align:center;
+}
+.wow-pricing-table .wow-pricing-content ul {
+	margin:0 !important;
+	list-style:none !important;
+	padding-left:0;
+}
+.wow-pricing-table .wow-pricing-content ul li {
+	margin:0 !important;
+	padding:10px 20px !important;
+	border-bottom:1px solid #eee;
+	list-style:none !important;
+	color:#555;
+}
+.wow-pricing-table .wow-pricing-content ul li:nth-child(2n+2) {
+	background:#F9F9F9;
+}
+.wow-pricing-table .wow-pricing-button {
+	background:#fff;
+	text-align:center;
+	border-top:1px solid #fff;
+	padding:35px 20px 35px;
+}
+.wow-pricing-table .wow-pricing-button .wow-button {
+	float:none;
+	margin:0 auto;
+	background:#333;
+	color:#fff;
+		border-radius:3px;
+	padding:12px 22px 14px;
+}
+.featured .wow-pricing-per,.featured .wow-pricing-cost,.featured .wow-pricing-button .wow-button,.buttoncolor {
+	background-color: #f05f40;
+}
+/*=========================*/

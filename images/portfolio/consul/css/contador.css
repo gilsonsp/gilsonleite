@@ -1,0 +1,69 @@
+/* jQuery Countdown styles 1.6.3. */
+#countdownDisplay {
+	width: 456px;
+	height: 170px;
+	background: transparent url('../img/cronometroDisplay.png') top center no-repeat;
+	position: absolute;
+	bottom: -42px;
+	margin-left: 64px
+}
+#defaultCountdown {
+	width: 291px;
+	height: 45px;
+	color: #fff;
+}
+.hasCountdown {
+	letter-spacing: 15px;
+	margin: 48px 0 0 88px;
+}
+.countdown_rtl {
+	direction: rtl;
+}
+.countdown_holding span {
+	color: #888;
+}
+.countdown_row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown_show1 .countdown_section {
+	width: 98%;
+}
+.countdown_show2 .countdown_section {
+	width: 48%;
+}
+.countdown_show3 .countdown_section {
+	width: 33.5%;
+}
+.countdown_show3 .countdown_section:first-child{
+	width: 29.5%;
+}
+.countdown_show4 .countdown_section {
+	width: 24.5%;
+	color: #fff
+}
+.countdown_show5 .countdown_section {
+	width: 19.5%;
+}
+.countdown_show6 .countdown_section {
+	width: 16.25%;
+}
+.countdown_show7 .countdown_section {
+	width: 14%;
+}
+.countdown_section {
+	display: block;
+	float: left;
+	font-size: 93%;
+	font-weight:bold;
+	text-align: right;
+}
+.countdown_amount {
+	font-size: 255%;
+}
+.countdown_descr {
+	display: block;
+	width: 100%;
+}
